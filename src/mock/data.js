@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Paul Ockwell', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Paul Ockwell',
+  subtitle: 'Front-End Web Developer.',
   cta: '',
 };
 
@@ -28,9 +28,20 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'skdTyres.png',
+    title: 'SKD-Tyres',
+    info:
+      'The website was developed for a Local tryre shop business. The main goals of this website were to increase sales and provide customers with any information they may need. The website is also a fully responsive allowing viewing from all mediums.',
+    info2: '',
+    url: 'https://tender-kepler-0def26.netlify.app/',
+    repo: 'https://github.com/PaulOckwell/SKD-tyres', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'sc40.png',
+    title: 'ISO SC40',
+    info:
+      'Main duties being developing and altering the layout, uploading new content for the blog. This website site still under development stages and not yet live. ISO uses their own Software for developing their sites, with the ability to edit the source code. As the sole developer of this website and being my first role in the profession; I have learned what it means to be a web developer in a professional environment.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -38,19 +49,33 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Snake Game',
+    info:
+      'Main duties being developing and altering the layout, uploading new content for the blog. This website site still under development stages and not yet live. ISO uses their own Software for developing their sites, with the ability to edit the source code. As the sole developer of this website and being my first role in the profession; I have learned what it means to be a web developer in a professional environment.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://mystifying-hodgkin-894c9a.netlify.app/',
+    repo: 'https://github.com/PaulOckwell/snake', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    img: 'weatherapp.png',
+    title: 'Weather App',
+    info:
+      'My simple watch list application allows the user to add, remove and store films they want to watch.',
+    info2:
+      'This JavaScript application was developed using vanilla is to demonstrate some of my knowledge with this language.',
+    url: 'https://agitated-meninsky-bb7ff8.netlify.app/',
+    repo: 'https://agitated-meninsky-bb7ff8.netlify.app/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'watchlist.png',
+    title: 'Watch List App',
+    info:
+      'My simple watch list application allows the user to add, remove and store films they want to watch.',
+    info2:
+      'This JavaScript application was developed using vanilla is to demonstrate some of my knowledge with this language.',
+    url: 'https://eloquent-joliot-61e465.netlify.app/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
@@ -59,7 +84,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'paulcharlesockwell@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +92,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'href="https://www.linkedin.com/in/paul-ockwell-a74b74151/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/PaulOckwell',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
