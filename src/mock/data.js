@@ -12,16 +12,16 @@ export const heroData = {
   title: '',
   name: 'Paul Ockwell',
   subtitle: 'Front-End Web Developer.',
-  cta: '',
+  cta: 'More Info',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
+  paragraphOne: 'Hi my name is Paul, Im a Front-End Developer based in South London.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://resume.io/r/DRVmMCidp', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -36,22 +36,22 @@ export const projectsData = [
     url: 'https://tender-kepler-0def26.netlify.app/',
     repo: 'https://github.com/PaulOckwell/SKD-tyres', // if no repo, the button will not show up
   },
+  // {
+  //   id: nanoid(),
+  //   img: 'sc40.png',
+  //   title: 'ISO SC40',
+  //   info:
+  //     'Main duties being developing and altering the layout, uploading new content for the blog. This website site still under development stages and not yet live. ISO uses their own Software for developing their sites, with the ability to edit the source code. As the sole developer of this website and being my first role in the profession; I have learned what it means to be a web developer in a professional environment.',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
-    img: 'sc40.png',
-    title: 'ISO SC40',
-    info:
-      'Main duties being developing and altering the layout, uploading new content for the blog. This website site still under development stages and not yet live. ISO uses their own Software for developing their sites, with the ability to edit the source code. As the sole developer of this website and being my first role in the profession; I have learned what it means to be a web developer in a professional environment.',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
+    img: 'snake.png',
     title: 'Snake Game',
     info:
-      'Main duties being developing and altering the layout, uploading new content for the blog. This website site still under development stages and not yet live. ISO uses their own Software for developing their sites, with the ability to edit the source code. As the sole developer of this website and being my first role in the profession; I have learned what it means to be a web developer in a professional environment.',
+      'Remake of the original snake game. Allows the user to controll the snake using the arrow keys. Game was developed using Vanilla JavaScript',
     info2: '',
     url: 'https://mystifying-hodgkin-894c9a.netlify.app/',
     repo: 'https://github.com/PaulOckwell/snake', // if no repo, the button will not show up
@@ -65,7 +65,7 @@ export const projectsData = [
     info2:
       'This JavaScript application was developed using vanilla is to demonstrate some of my knowledge with this language.',
     url: 'https://agitated-meninsky-bb7ff8.netlify.app/',
-    repo: 'https://agitated-meninsky-bb7ff8.netlify.app/', // if no repo, the button will not show up
+    repo: 'https://github.com/PaulOckwell/weatherApp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -76,7 +76,7 @@ export const projectsData = [
     info2:
       'This JavaScript application was developed using vanilla is to demonstrate some of my knowledge with this language.',
     url: 'https://eloquent-joliot-61e465.netlify.app/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/PaulOckwell/WatchList', // if no repo, the button will not show up
   },
 ];
 
