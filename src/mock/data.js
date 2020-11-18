@@ -19,8 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Hi my name is Paul, Im a Front-End Developer based in South London.',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphTwo:
+    'Project experience In web and software development using languages; JavaScript, Python, Node and tools like WordPress. Developing websites for small businesses to further my skills. Looking for a Web Development Role.',
+  paragraphThree: 'Thanks for taking the time to view my website.',
   resume: 'https://resume.io/r/DRVmMCidp', // if no resume, the button will not show up
 };
 
@@ -32,7 +33,7 @@ export const projectsData = [
     title: 'SKD-Tyres',
     info:
       'The website was developed for a Local tryre shop business. The main goals of this website were to increase sales and provide customers with any information they may need. The website is also a fully responsive allowing viewing from all mediums.',
-    info2: '',
+    info2: 'HTML, CSS, Jqury Materialize',
     url: 'https://tender-kepler-0def26.netlify.app/',
     repo: 'https://github.com/PaulOckwell/SKD-tyres', // if no repo, the button will not show up
   },
@@ -52,7 +53,7 @@ export const projectsData = [
     title: 'Snake Game',
     info:
       'Remake of the original snake game. Allows the user to controll the snake using the arrow keys. Game was developed using Vanilla JavaScript',
-    info2: '',
+    info2: 'HTML, CSS, JavaScript, Bootstrap',
     url: 'https://mystifying-hodgkin-894c9a.netlify.app/',
     repo: 'https://github.com/PaulOckwell/snake', // if no repo, the button will not show up
   },
@@ -61,9 +62,8 @@ export const projectsData = [
     img: 'weatherapp.png',
     title: 'Weather App',
     info:
-      'My simple watch list application allows the user to add, remove and store films they want to watch.',
-    info2:
-      'This JavaScript application was developed using vanilla is to demonstrate some of my knowledge with this language.',
+      'This wather application allows the user to enter their loaction and recive current weather information. This app uses API calles to recive this inforamtion and then displays card with the data.',
+    info2: 'HTML, CSS, JavaScript, Bootstrap',
     url: 'https://agitated-meninsky-bb7ff8.netlify.app/',
     repo: 'https://github.com/PaulOckwell/weatherApp', // if no repo, the button will not show up
   },
@@ -72,9 +72,8 @@ export const projectsData = [
     img: 'watchlist.png',
     title: 'Watch List App',
     info:
-      'My simple watch list application allows the user to add, remove and store films they want to watch.',
-    info2:
-      'This JavaScript application was developed using vanilla is to demonstrate some of my knowledge with this language.',
+      'My simple watch list application allows the user to add, remove and store films they want to watch, using local storige.',
+    info2: 'HTML, CSS, JavaScript, Json, Bootstrap',
     url: 'https://eloquent-joliot-61e465.netlify.app/',
     repo: 'https://github.com/PaulOckwell/WatchList', // if no repo, the button will not show up
   },
